@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55231CE41FF0D18400DE4210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55231CE31FF0D18400DE4210 /* AppDelegate.swift */; };
+		55231CE61FF0D18400DE4210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55231CE51FF0D18400DE4210 /* ViewController.swift */; };
+		55231CE91FF0D18400DE4210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55231CE71FF0D18400DE4210 /* Main.storyboard */; };
+		55231CEB1FF0D18400DE4210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55231CEA1FF0D18400DE4210 /* Assets.xcassets */; };
+		55231CEE1FF0D18500DE4210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55231CEC1FF0D18500DE4210 /* LaunchScreen.storyboard */; };
+		55231CF91FF0D18500DE4210 /* ZGSystemAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55231CF81FF0D18500DE4210 /* ZGSystemAuthTests.swift */; };
+		55231D041FF0D18500DE4210 /* ZGSystemAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55231D031FF0D18500DE4210 /* ZGSystemAuthUITests.swift */; };
+		55231D121FF0D1A000DE4210 /* ZGSystemAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55231D111FF0D1A000DE4210 /* ZGSystemAuth.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55231CF51FF0D18500DE4210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55231CD81FF0D18400DE4210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55231CDF1FF0D18400DE4210;
+			remoteInfo = ZGSystemAuth;
+		};
+		55231D001FF0D18500DE4210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55231CD81FF0D18400DE4210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55231CDF1FF0D18400DE4210;
+			remoteInfo = ZGSystemAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55231CE01FF0D18400DE4210 /* ZGSystemAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGSystemAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55231CE31FF0D18400DE4210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55231CE51FF0D18400DE4210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55231CE81FF0D18400DE4210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55231CEA1FF0D18400DE4210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55231CED1FF0D18500DE4210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55231CEF1FF0D18500DE4210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55231CF41FF0D18500DE4210 /* ZGSystemAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGSystemAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55231CF81FF0D18500DE4210 /* ZGSystemAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGSystemAuthTests.swift; sourceTree = "<group>"; };
+		55231CFA1FF0D18500DE4210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55231CFF1FF0D18500DE4210 /* ZGSystemAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGSystemAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55231D031FF0D18500DE4210 /* ZGSystemAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGSystemAuthUITests.swift; sourceTree = "<group>"; };
+		55231D051FF0D18500DE4210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55231D111FF0D1A000DE4210 /* ZGSystemAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGSystemAuth.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55231CDD1FF0D18400DE4210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55231CF11FF0D18500DE4210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55231CFC1FF0D18500DE4210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55231CD71FF0D18400DE4210 = {
+			isa = PBXGroup;
+			children = (
+				55231CE21FF0D18400DE4210 /* ZGSystemAuth */,
+				55231CF71FF0D18500DE4210 /* ZGSystemAuthTests */,
+				55231D021FF0D18500DE4210 /* ZGSystemAuthUITests */,
+				55231CE11FF0D18400DE4210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55231CE11FF0D18400DE4210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55231CE01FF0D18400DE4210 /* ZGSystemAuth.app */,
+				55231CF41FF0D18500DE4210 /* ZGSystemAuthTests.xctest */,
+				55231CFF1FF0D18500DE4210 /* ZGSystemAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55231CE21FF0D18400DE4210 /* ZGSystemAuth */ = {
+			isa = PBXGroup;
+			children = (
+				55231CE31FF0D18400DE4210 /* AppDelegate.swift */,
+				55231CE51FF0D18400DE4210 /* ViewController.swift */,
+				55231D111FF0D1A000DE4210 /* ZGSystemAuth.swift */,
+				55231CE71FF0D18400DE4210 /* Main.storyboard */,
+				55231CEA1FF0D18400DE4210 /* Assets.xcassets */,
+				55231CEC1FF0D18500DE4210 /* LaunchScreen.storyboard */,
+				55231CEF1FF0D18500DE4210 /* Info.plist */,
+			);
+			path = ZGSystemAuth;
+			sourceTree = "<group>";
+		};
+		55231CF71FF0D18500DE4210 /* ZGSystemAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				55231CF81FF0D18500DE4210 /* ZGSystemAuthTests.swift */,
+				55231CFA1FF0D18500DE4210 /* Info.plist */,
+			);
+			path = ZGSystemAuthTests;
+			sourceTree = "<group>";
+		};
+		55231D021FF0D18500DE4210 /* ZGSystemAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55231D031FF0D18500DE4210 /* ZGSystemAuthUITests.swift */,
+				55231D051FF0D18500DE4210 /* Info.plist */,
+			);
+			path = ZGSystemAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55231CDF1FF0D18400DE4210 /* ZGSystemAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55231D081FF0D18500DE4210 /* Build configuration list for PBXNativeTarget "ZGSystemAuth" */;
+			buildPhases = (
+				55231CDC1FF0D18400DE4210 /* Sources */,
+				55231CDD1FF0D18400DE4210 /* Frameworks */,
+				55231CDE1FF0D18400DE4210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGSystemAuth;
+			productName = ZGSystemAuth;
+			productReference = 55231CE01FF0D18400DE4210 /* ZGSystemAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55231CF31FF0D18500DE4210 /* ZGSystemAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55231D0B1FF0D18500DE4210 /* Build configuration list for PBXNativeTarget "ZGSystemAuthTests" */;
+			buildPhases = (
+				55231CF01FF0D18500DE4210 /* Sources */,
+				55231CF11FF0D18500DE4210 /* Frameworks */,
+				55231CF21FF0D18500DE4210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55231CF61FF0D18500DE4210 /* PBXTargetDependency */,
+			);
+			name = ZGSystemAuthTests;
+			productName = ZGSystemAuthTests;
+			productReference = 55231CF41FF0D18500DE4210 /* ZGSystemAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55231CFE1FF0D18500DE4210 /* ZGSystemAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55231D0E1FF0D18500DE4210 /* Build configuration list for PBXNativeTarget "ZGSystemAuthUITests" */;
+			buildPhases = (
+				55231CFB1FF0D18500DE4210 /* Sources */,
+				55231CFC1FF0D18500DE4210 /* Frameworks */,
+				55231CFD1FF0D18500DE4210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55231D011FF0D18500DE4210 /* PBXTargetDependency */,
+			);
+			name = ZGSystemAuthUITests;
+			productName = ZGSystemAuthUITests;
+			productReference = 55231CFF1FF0D18500DE4210 /* ZGSystemAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55231CD81FF0D18400DE4210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jax;
+				TargetAttributes = {
+					55231CDF1FF0D18400DE4210 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					55231CF31FF0D18500DE4210 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55231CDF1FF0D18400DE4210;
+					};
+					55231CFE1FF0D18500DE4210 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55231CDF1FF0D18400DE4210;
+					};
+				};
+			};
+			buildConfigurationList = 55231CDB1FF0D18400DE4210 /* Build configuration list for PBXProject "ZGSystemAuth" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55231CD71FF0D18400DE4210;
+			productRefGroup = 55231CE11FF0D18400DE4210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55231CDF1FF0D18400DE4210 /* ZGSystemAuth */,
+				55231CF31FF0D18500DE4210 /* ZGSystemAuthTests */,
+				55231CFE1FF0D18500DE4210 /* ZGSystemAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55231CDE1FF0D18400DE4210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55231CEE1FF0D18500DE4210 /* LaunchScreen.storyboard in Resources */,
+				55231CEB1FF0D18400DE4210 /* Assets.xcassets in Resources */,
+				55231CE91FF0D18400DE4210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55231CF21FF0D18500DE4210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55231CFD1FF0D18500DE4210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55231CDC1FF0D18400DE4210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55231CE61FF0D18400DE4210 /* ViewController.swift in Sources */,
+				55231D121FF0D1A000DE4210 /* ZGSystemAuth.swift in Sources */,
+				55231CE41FF0D18400DE4210 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55231CF01FF0D18500DE4210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55231CF91FF0D18500DE4210 /* ZGSystemAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55231CFB1FF0D18500DE4210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55231D041FF0D18500DE4210 /* ZGSystemAuthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55231CF61FF0D18500DE4210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55231CDF1FF0D18400DE4210 /* ZGSystemAuth */;
+			targetProxy = 55231CF51FF0D18500DE4210 /* PBXContainerItemProxy */;
+		};
+		55231D011FF0D18500DE4210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55231CDF1FF0D18400DE4210 /* ZGSystemAuth */;
+			targetProxy = 55231D001FF0D18500DE4210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55231CE71FF0D18400DE4210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55231CE81FF0D18400DE4210 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55231CEC1FF0D18500DE4210 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55231CED1FF0D18500DE4210 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55231D061FF0D18500DE4210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55231D071FF0D18500DE4210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55231D091FF0D18500DE4210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65ET8Y52Q7;
+				INFOPLIST_FILE = ZGSystemAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkSomeClever.jax.ZGSystemAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55231D0A1FF0D18500DE4210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65ET8Y52Q7;
+				INFOPLIST_FILE = ZGSystemAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkSomeClever.jax.ZGSystemAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55231D0C1FF0D18500DE4210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65ET8Y52Q7;
+				INFOPLIST_FILE = ZGSystemAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkSomeClever.jax.ZGSystemAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGSystemAuth.app/ZGSystemAuth";
+			};
+			name = Debug;
+		};
+		55231D0D1FF0D18500DE4210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65ET8Y52Q7;
+				INFOPLIST_FILE = ZGSystemAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkSomeClever.jax.ZGSystemAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGSystemAuth.app/ZGSystemAuth";
+			};
+			name = Release;
+		};
+		55231D0F1FF0D18500DE4210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65ET8Y52Q7;
+				INFOPLIST_FILE = ZGSystemAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkSomeClever.jax.ZGSystemAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZGSystemAuth;
+			};
+			name = Debug;
+		};
+		55231D101FF0D18500DE4210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65ET8Y52Q7;
+				INFOPLIST_FILE = ZGSystemAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkSomeClever.jax.ZGSystemAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZGSystemAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55231CDB1FF0D18400DE4210 /* Build configuration list for PBXProject "ZGSystemAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55231D061FF0D18500DE4210 /* Debug */,
+				55231D071FF0D18500DE4210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55231D081FF0D18500DE4210 /* Build configuration list for PBXNativeTarget "ZGSystemAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55231D091FF0D18500DE4210 /* Debug */,
+				55231D0A1FF0D18500DE4210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55231D0B1FF0D18500DE4210 /* Build configuration list for PBXNativeTarget "ZGSystemAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55231D0C1FF0D18500DE4210 /* Debug */,
+				55231D0D1FF0D18500DE4210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55231D0E1FF0D18500DE4210 /* Build configuration list for PBXNativeTarget "ZGSystemAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55231D0F1FF0D18500DE4210 /* Debug */,
+				55231D101FF0D18500DE4210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55231CD81FF0D18400DE4210 /* Project object */;
+}

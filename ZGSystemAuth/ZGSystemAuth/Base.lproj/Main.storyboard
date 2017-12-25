@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ZGSystemAuth" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rOH-ES-uY2"/>
+                        <viewControllerLayoutGuide type="bottom" id="4W2-M2-NsZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="miy-jS-iJ8">
+                                <rect key="frame" x="133.5" y="120" width="108" height="30"/>
+                                <state key="normal" title="获取麦克风权限"/>
+                                <connections>
+                                    <action selector="getMicrophoneAuth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gyc-Ng-0iz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUg-7e-PHf">
+                                <rect key="frame" x="141.5" y="200" width="92" height="30"/>
+                                <state key="normal" title="获取相册权限"/>
+                                <connections>
+                                    <action selector="getPhotoLibraryAuth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BPJ-Jn-bLA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghU-rb-aPA">
+                                <rect key="frame" x="133.5" y="360" width="108" height="30"/>
+                                <state key="normal" title="获取联系人权限"/>
+                                <connections>
+                                    <action selector="getContactAuth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Cb-Hx-9tM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Aa-Lm-DhE">
+                                <rect key="frame" x="141.5" y="440" width="92" height="30"/>
+                                <state key="normal" title="获取定位权限"/>
+                                <connections>
+                                    <action selector="getLocationAuth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qpR-h9-QAz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TK-Dp-Oms">
+                                <rect key="frame" x="141.5" y="280" width="92" height="30"/>
+                                <state key="normal" title="获取相机权限"/>
+                                <connections>
+                                    <action selector="getMediaVideoAuth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sBI-KV-9De"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ghU-rb-aPA" firstAttribute="top" secondItem="4TK-Dp-Oms" secondAttribute="bottom" constant="50" id="Alh-96-IWW"/>
+                            <constraint firstItem="4TK-Dp-Oms" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DF8-cV-d1j"/>
+                            <constraint firstItem="miy-jS-iJ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PSi-8Q-Lnu"/>
+                            <constraint firstItem="0Aa-Lm-DhE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SPR-EN-Dag"/>
+                            <constraint firstItem="ghU-rb-aPA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ShD-f5-rjS"/>
+                            <constraint firstItem="miy-jS-iJ8" firstAttribute="top" secondItem="rOH-ES-uY2" secondAttribute="bottom" constant="100" id="cjx-DL-1dq"/>
+                            <constraint firstItem="0Aa-Lm-DhE" firstAttribute="top" secondItem="ghU-rb-aPA" secondAttribute="bottom" constant="50" id="idd-sK-Ozz"/>
+                            <constraint firstItem="4TK-Dp-Oms" firstAttribute="top" secondItem="RUg-7e-PHf" secondAttribute="bottom" constant="50" id="mdX-TC-tcb"/>
+                            <constraint firstItem="RUg-7e-PHf" firstAttribute="top" secondItem="miy-jS-iJ8" secondAttribute="bottom" constant="50" id="ocB-6v-l4L"/>
+                            <constraint firstItem="RUg-7e-PHf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qtD-HQ-qfq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1191" y="26"/>
+        </scene>
+    </scenes>
+</document>
