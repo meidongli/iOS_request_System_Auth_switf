@@ -16,10 +16,10 @@ public typealias ZGSystemAuthAuthorizedBlock = () -> (Void)
 public typealias ZGSystemAuthDeniedBlock = () -> (Void)
 
 public enum ZGSystemAuthType : Int {
-    case mediaAudio
-    case photoLibrary
-    case mediaVideo
-    case contact
+    case mediaAudio //>麦克风
+    case photoLibrary //>相册
+    case mediaVideo //>相机
+    case contact //>联系人
 }
 
 public func requestSystemAuth(authType: ZGSystemAuthType, authorizedBlock: @escaping ZGSystemAuthAuthorizedBlock, deniedBlock: @escaping ZGSystemAuthDeniedBlock) {
@@ -105,6 +105,7 @@ public func requestSystemAuth(authType: ZGSystemAuthType, authorizedBlock: @esca
     }
 }
 
+///>定位权限
 public func requestSystemLocation(locationManager: CLLocationManager, whenInUseAuthorization: Bool, alwaysAuthorization: Bool, authorizedBlock: @escaping ZGSystemAuthAuthorizedBlock, deniedBlock: @escaping ZGSystemAuthDeniedBlock) {
     let authStatus: CLAuthorizationStatus = CLLocationManager.authorizationStatus()
     switch authStatus {
